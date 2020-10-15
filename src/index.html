@@ -1,0 +1,44 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="panel panel-default" style="margin: 10px">
+    <div class="panel-body">
+      <div class="form-horizontal" role="form">
+        <div class="form-group">
+          <label for="inputUrl" class="col-sm-2 control-label">链接</label>
+          <div class="col-sm-10">
+            <textarea rows="5" class="form-control" id="inputUrl" placeholder="请输入查询链接"></textarea>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-3">
+            <button id="btn_submit" class="btn btn-primary">查询</button>
+            <button id="btn_clear" class="btn btn-default">清空</button>
+          </div>
+        </div>
+        <!-- <div class="form-group">
+          <label for="title_area" class="col-sm-2 control-label">title</label>
+          <div class="col-sm-10">
+            <textarea readonly rows="5" class="form-control" id="title_area"></textarea>
+          </div>
+        </div> -->
+        <div class="form-group">
+          <label for="keywords_area" class="col-sm-2 control-label">keywords</label>
+          <div class="col-sm-10">
+            <textarea readonly rows="5" class="form-control" id="keywords_area"></textarea>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-2">
+            <button id="btn_export" class="btn btn-primary">导出至Excel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
